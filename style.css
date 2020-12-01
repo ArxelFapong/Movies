@@ -1,0 +1,127 @@
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #05171f;
+}
+
+#bloc_page {
+    background-color: #072430;
+    padding-top: 1px;
+    padding-bottom: 27px;
+    color: white;
+    font-family: monospace, sans-serif;
+}
+
+header {
+    border-bottom: solid 2px #3687de;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+.link a:hover {
+    border-bottom: solid 2px #09fffd;
+    padding-bottom: 55px;
+    color: #09fffd;
+    background: url(images/flecheblanchebas.png) no-repeat center bottom;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#cover {
+    width: 250px;
+    height: 430px;
+    margin-right: 40px;
+}
+
+#article {
+    width: 500px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#stars {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+#stars li {
+    margin-right: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #09fffd;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: solid 1px #072430;
+    background-color: grey;
+    padding: 10px;
+}
+
+span img {
+    position: relative;
+    top: 14px;
+    right: 10px;
+}
+
+#navig {
+    margin-top: 50px;
+    border-bottom: solid 2px #3687de;
+}
+
+#down-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.lien a:hover {
+    border-bottom: solid 2px #09fffd;
+    padding-bottom: 16px;
+    color: #09fffd;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#pieds {
+    border: solid 1px #072430;
+    background-color: #09fffd;
+    padding: 10px;
+    width: 300px;
+}
